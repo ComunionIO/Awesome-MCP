@@ -11,15 +11,15 @@ _Servers are grouped by what they do. Each row shows the real language, reposito
 - [Servers](#servers)
   - [Dev, Code & Git](#dev-code--git) (26)
   - [Databases & Data](#databases--data) (5)
-  - [Cloud, DevOps & Monitoring](#cloud-devops--monitoring) (13)
-  - [Web, Search & Browser](#web-search--browser) (22)
-  - [Productivity, Docs & Knowledge](#productivity-docs--knowledge) (12)
+  - [Cloud, DevOps & Monitoring](#cloud-devops--monitoring) (14)
+  - [Web, Search & Browser](#web-search--browser) (23)
+  - [Productivity, Docs & Knowledge](#productivity-docs--knowledge) (13)
   - [Communication & Social](#communication--social) (10)
   - [Commerce, Ads & Business](#commerce-ads--business) (24)
   - [AI, Agents & Memory](#ai-agents--memory) (17)
-  - [Media & 3D](#media--3d) (20)
+  - [Media & 3D](#media--3d) (21)
   - [Finance & Crypto](#finance--crypto) (13)
-  - [Other](#other) (14)
+  - [Other](#other) (16)
 - [Clients](#clients)
 - [SDKs](#sdks)
 - [Tools](#tools)
@@ -74,6 +74,9 @@ Standout community servers by traction and activity.
 | [GhidraLens](https://github.com/hellosverre/ghidralens) | Interactive Ghidra views inside the client: decompile a binary, rename symbols in the live program, and navigate the call graph. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 2mo | 0 |
 | [conductor](https://github.com/fainir/conductor) | MCP server for Claude Code whose 23 tools check their own output in code, with retry and fallback, before returning it. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 1d | 0 |
 | [mcpserverlist-mcp](https://github.com/sudomichael/mcpserverlist-mcp) | Check if your MCP server is ready for MCP directories, then get it submitted. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 4d | 0 |
+| [base64-lite](https://github.com/tidybytetools/base64-lite) | Encodes or decodes Base64 for text and local files, with an optional URL-safe alphabet and data-URI output. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
+| [json-repair-lite](https://github.com/tidybytetools/json-repair-lite) | Repairs broken or incomplete JSON, including model output, and runs offline with no API key. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
+| [hash-lite](https://github.com/tidybytetools/hash-lite) | Hashes text or local files with SHA-256, SHA-1, MD5, and optional SHA-512, and returns hex and Base64. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
 
 ### Databases & Data
 
@@ -102,6 +105,7 @@ Standout community servers by traction and activity.
 | [Skycloak MCP](https://github.com/sky-cloak/skycloak-mcp) | Hosted MCP server for Skycloak, an identity-as-a-service provider with managed Keycloak. Lets agents manage clusters, realms, clients, users and SSO. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="18" alt="Go" title="Go"> | 🟢 0d | 1 |
 | [CloudGPU MCP](https://github.com/mrhy7176/cloudgpu-mcp) | Lets MCP clients rent a per-minute GPU on CloudGPU: list GPUs and templates, quote the cost, launch with a budget, time and idle limit, run commands, tail logs, transfer files and stop the instance. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="18" alt="JavaScript" title="JavaScript"> | 🟢 0d | 0 |
 | [Light Cloud](https://github.com/light-cloud-com/mcp-server) | Deploy and manage apps on the Light Cloud hosting platform: deploy from GitHub or a local folder, environments, logs, metrics, rollbacks, databases, custom domains and billing. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 2d | 0 |
+| [Lantern Works GPU Prices](https://github.com/connormatthewdouglas/agent-work-stack-deals) | Read-only GPU cloud rental price comparison across about 29 tracked vendors, with a source link and check time on every price, recent price changes and job-cost estimates; no API key. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
 
 ### Web, Search & Browser
 
@@ -129,6 +133,7 @@ Standout community servers by traction and activity.
 | [ATS Jobs MCP](https://github.com/GeminiGeorge22/ats-jobs-mcp) | New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 5d | 0 |
 | [Portproof](https://github.com/portproofas/portproof-mcp) | Official server for Portproof proxies: reads pricing and countries online, builds proxy URLs and tests connections on the shared mobile 4G/5G and residential pools, checks the GB balance, buys GB traffic and manages private mobile ports; account tools need an API key, and paid actions require explicit confirmation and an idempotency key. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="18" alt="JavaScript" title="JavaScript"> | 🟢 4w | 0 |
 | [Bowmark](https://github.com/bowmark-ai/mcp) | Live, structured data from 750+ websites (Amazon, LinkedIn, YouTube, Airbnb and more). The agent reads the function library with `get_library`, sends a short script to `run`, and gets typed results back; free $10 to start. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
+| [ATS Zero-Browser Gateway](https://github.com/ginugokz/ats-zero-browser-gateway) | Jobs from Workday, Greenhouse, Lever and Ashby career sites as normalized JSON, with change tracking. | — | 🟢 0d | 0 |
 
 ### Productivity, Docs & Knowledge
 
@@ -148,6 +153,8 @@ Standout community servers by traction and activity.
 | [doc2md-lite](https://github.com/tidybytetools/doc2md-lite) | Turns local PDFs and saved HTML pages into clean Markdown with real tables for AI and RAG work. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
 | [pdf-table-pull-lite](https://github.com/tidybytetools/pdf-table-pull-lite) | Pulls tables out of local text PDFs and saves them as CSV files for agents and scripts. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
 | [link-check-lite](https://github.com/tidybytetools/link-check-lite) | Checks a list of URLs for HTTP status codes, redirects, and broken links. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
+| [md-chunk-lite](https://github.com/tidybytetools/md-chunk-lite) | Splits Markdown into heading-aware chunks with path and line numbers for RAG pipelines. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
+| [json-shaper-lite](https://github.com/tidybytetools/json-shaper-lite) | Turns key:value notes, CSV/TSV, and Markdown tables into typed JSON for local agent workflows. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
 
 ### Communication & Social
 
@@ -214,6 +221,7 @@ Standout community servers by traction and activity.
 | [Anansi Haven](https://github.com/kburrus64-max/anansi-haven) | Free home base for AI agents with persistent memory, encrypted private storage, a job board, agent directory and skills library over MCP, A2A and HTTP. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="18" alt="JavaScript" title="JavaScript"> | 🟢 10d | 0 |
 | [needhave](https://github.com/PrivateAISystems/needhave) | Public need/have board for AI agents over remote MCP, where agents read the live list and post their own needs or haves with no account or API key. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="18" alt="JavaScript" title="JavaScript"> | 🟢 2w | 0 |
 | [Living Stack Community](https://github.com/equinoxaifinance-rgb/living-stack-community) | Seven-tool MCP proof loop that authorizes and records agent actions locally, storing inputs only as SHA-256 digests. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="18" alt="JavaScript" title="JavaScript"> | 🟢 10d | 0 |
+| [OpenAny](https://github.com/openanysi/openany-mcp) | The B2A (business to agent) marketplace. One MCP endpoint for 3,200+ APIs and 168+ AI models. Browse free; pay per call. https://mcp.openany.si | — | 🟢 0d | 0 |
 
 ### Media & 3D
 
@@ -239,6 +247,7 @@ Standout community servers by traction and activity.
 | [MakeAIVideo](https://github.com/makeaivideo-ai/mcp) | Creates short-form AI videos (script, voiceover, AI or stock scenes, captions, music) and posts or schedules them to connected social accounts; hosted HTTP or local stdio, MakeAIVideo account and credits required. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 3w | 0 |
 | [Spotify Play Count MCP](https://github.com/GeminiGeorge22/spotify-play-count-mcp) | Spotify play counts for any track, album, artist or playlist link, plus monthly listeners, followers, world rank and top cities for artists. No Spotify login. Also on PyPI (`uvx spotify-play-count-mcp`). | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 4d | 0 |
 | [imageat](https://github.com/incendies/imageat-mcp) | Generate and edit images and videos, plus narrated explainers and voiceovers, from a hosted Streamable HTTP endpoint or the official npm package. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 0d | 0 |
+| [Wiro AI](https://github.com/wiroai/Wiro-MCP) | Searches, prices and runs image, video, audio and LLM models on Wiro AI, chains them into workflows, and deploys and messages your own AI agents. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 0d | 0 |
 
 ### Finance & Crypto
 
@@ -257,6 +266,7 @@ Standout community servers by traction and activity.
 | [CurrencyFreaks](https://github.com/CurrencyFreaks/currencyfreaks-mcp) | Official server for the CurrencyFreaks API with tools for latest and historical exchange rates, currency conversion, time series, fluctuation and IP-to-currency lookup across 1000+ fiat, crypto and precious metal currencies; requires an API key. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 12d | 0 |
 | [Vérif Entreprise FR](https://github.com/YILDIZ-TOLGA/verif-entreprise-mcp) | French company verification (KYB) by SIREN from official data: legal status, insolvency notices (BODACC), RGE, LEI and asset-freeze screening, plus monitoring with signed webhooks. A free preview tool; the other tools are paid per call in USDC on Base via x402, with no API key. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="18" alt="JavaScript" title="JavaScript"> | 🟢 4d | 0 |
 | [OMX](https://github.com/Lumen-Founder/omx) | Non-custodial Hyperliquid perps execution for AI agents: pre-trade limits, human approval, kill switch, audit log; keyless demo via `uvx omx-hyperliquid`; optional disclosed 1 bp builder fee. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 3d | 0 |
+| [Trading Signals MCP](https://github.com/gdietsch/trading-signals-mcp) | Pay-per-call market data for AI agents (ES futures event-risk gate, SEC insider buys, and AI trade briefs), with a free HTTP API tier (100 calls/mo via API key) or USDC pay-per-call via x402 ($0.005-$0.10). | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 0d | 0 |
 
 ### Other
 
@@ -276,6 +286,8 @@ Standout community servers by traction and activity.
 | [APIFreaks](https://github.com/api-freaks/apifreaks-mcp) | Official server for the APIFreaks APIs with opt-in modules for weather, WHOIS, DNS, SSL, IP geolocation, currency and commodity rates, screenshots, PDFs, VAT/IBAN/SWIFT and email or phone validation; requires an API key. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 9d | 0 |
 | [WhoisFreaks](https://github.com/WhoisFreaks/whoisfreaks-mcp-server) | Official server for the WhoisFreaks APIs with tools for live and historical WHOIS, reverse WHOIS, DNS lookup and history, IP and ASN WHOIS, domain availability, subdomains and SSL; requires an API key. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="18" alt="Java" title="Java"> | 🟢 6w | 0 |
 | [ichi-mcp](https://github.com/bernik-bot/ichi-mcp) | Reads the ICHI internet-wide cyber-health index — current threat band (NORMAL to CRITICAL), numeric score, source health, and recent critical advisories — via three keyless tools. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
+| [quantavane-mcp](https://github.com/arhancanli/quantavane-mcp) | Checks candidate solutions to open problems in mathematics exactly and offline: about 150,000 problems with their best known values, sources and checkers, run in a sandbox. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
+| [GridZen Verification](https://github.com/immurray/gridzen-developer-kit) | Research and synthetic MCP tools for planning identity-verification coverage and exercising sandbox decision results. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="18" alt="Python" title="Python"> | 🟢 0d | 0 |
 
 ## Clients
 
@@ -358,4 +370,5 @@ Tooling that helps you **build, test, secure, deploy or manage** MCP servers.
 | [mcp-drift](https://github.com/tomelias10/orynval-labs) | Offline, read-only CLI that scans MCP client configs for unpinned npx/uvx and @latest launches, inline tokens, broad filesystem scope and drift from an approved baseline, with SARIF output. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="18" alt="Go" title="Go"> | 🟢 4w | 0 |
 | [MCP Server Template](https://github.com/wuzzheng/mcp-server-template) | Minimal stdio MCP server starter in TypeScript and Python with an example tool, Claude Desktop and Cursor config, and a companion web form that generates the same project with your own tools. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 3w | 0 |
 | [MCP Server Starter](https://github.com/ninonorden/mcp-server-starter) | Minimal TypeScript MCP server template with stateless Streamable HTTP and stdio for Node and Cloudflare Workers, plus a preflight CLI that checks a deployed MCP URL for client-breaking issues. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 3d | 0 |
+| [TrustedMCP](https://github.com/akshay-bhanderi/trustedmcp.io-mcp) | MCP server that looks up A-D grades from public signals (login, upkeep, known CVEs, connection) for any MCP server, checks every server in a local MCP client config, and suggests better-graded alternatives. | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="18" alt="TypeScript" title="TypeScript"> | 🟢 0d | 0 |
 
